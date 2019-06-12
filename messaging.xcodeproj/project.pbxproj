@@ -14,6 +14,7 @@
 		CE9B9BC32208D01D00F49986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9B9BC12208D01D00F49986 /* LaunchScreen.storyboard */; };
 		CE9B9BCE2208D01D00F49986 /* messagingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B9BCD2208D01D00F49986 /* messagingTests.swift */; };
 		CE9B9BD92208D01D00F49986 /* messagingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B9BD82208D01D00F49986 /* messagingUITests.swift */; };
+		CE9B9BE92208D7D700F49986 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B9BE82208D7D700F49986 /* ChatMessageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CE9B9BD42208D01D00F49986 /* messagingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = messagingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9B9BD82208D01D00F49986 /* messagingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messagingUITests.swift; sourceTree = "<group>"; };
 		CE9B9BDA2208D01D00F49986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9B9BE82208D7D700F49986 /* ChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				CE9B9BBF2208D01D00F49986 /* Assets.xcassets */,
 				CE9B9BC12208D01D00F49986 /* LaunchScreen.storyboard */,
 				CE9B9BC42208D01D00F49986 /* Info.plist */,
+				CE9B9BE82208D7D700F49986 /* ChatMessageCell.swift */,
 			);
 			path = messaging;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9B9BE92208D7D700F49986 /* ChatMessageCell.swift in Sources */,
 				CE9B9BBB2208D01700F49986 /* ViewController.swift in Sources */,
 				CE9B9BB92208D01700F49986 /* AppDelegate.swift in Sources */,
 			);
